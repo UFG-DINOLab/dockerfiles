@@ -1,7 +1,7 @@
 # SD-TwizyModel
 This repository contains all instructions to deploy your docker to run the SD-TwizyModel.
 
-## 1. Installing docker
+## 1. Installing and configuring docker
 ```
 sudo apt update
 sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
@@ -10,6 +10,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce
+xhost +local:docker
 ```
 
 ## 2. Clone this repository and access the folder
